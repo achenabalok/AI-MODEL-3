@@ -1,0 +1,56 @@
+{
+  header: {
+    resolution: "8K_UHD",
+    renderEngine: "Hyper-Realistic AI-Modified",
+    aspectRatio: "3:4",
+    postProcessing: ["extreme-micro-detail", "zero-noise", "clean-gradients"]
+  },
+
+  sceneComposition: {
+    primarySubject: {
+      model: "Mountain Dew Aluminum Can",
+      transform: {
+        position: "Center",
+        tilt: "Slightly Backward",
+        lean: "Subtle Diagonal"
+      },
+      surface: {
+        material: "Metallic Matte/Gloss Hybrid",
+        overlay: "Dense condensation droplets",
+        branding: "Logo fully sharp, legible, and centered"
+      }
+    },
+
+    fx_dynamics: {
+      liquidBurst: {
+        color: "Neon Green ",
+        behavior: "Explosive upward/outward eruption",
+        source: "Behind can",
+        geometry: "Symmetrical crown-like burst",
+        particles: "Hundreds of frozen mid-air droplets"
+      }
+    },
+
+    assets: [
+      {
+        type: "Ice Cubes",
+        properties: ["Transparent", "Sharp-edged", "Refractive"],
+        distribution: "Floating at varying Z-depths"
+      },
+      {
+        type: "Limes",
+        states: ["Wedges showing pulp texture", "Whole fruit with pebble-grain peel"]
+      }
+    ],
+
+    lightingAndEnv: {
+      style: "Cinematic Studio / High-Contrast",
+      highlights: "Specular icy-white",
+      background: {
+        fill: "Deep Emerald Green Gradient",
+        bokeh: "Soft green glowing particles",
+        focus: "Shallow depth of field (Subject: Sharp, BG: Soft)"
+      }
+    }
+  }
+};
